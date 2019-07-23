@@ -1,7 +1,15 @@
 var number = 6;
 console.log(number);
-console.log(typeof);
+console.log(typeof 6);
 var string = "Шесть";
+console.log(string);
+console.log(typeof "Шесть");
 var boolean = true;
+console.log(boolean);
+console.log(typeof true);
 var zero = null;
+console.log(zero);
+console.log(null);
 var undefined = undefined;
+console.log(undefined);
+console.log(undefined);
