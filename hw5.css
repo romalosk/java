@@ -1,3 +1,10 @@
 .block {
     background-image: url(./img/java.png);
+    height: 800px;
+    width: 800px;
+}
+
+.main {
+    font-style: bold;
+    font-size: 50px;
 }
