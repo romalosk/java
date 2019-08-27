@@ -1,0 +1,14 @@
+.container {
+    margin: 0 auto;
+    max-width: 1220px;
+    padding: 0 20px;
+  }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  padding: 16px 0 17.11px 0;
+}
