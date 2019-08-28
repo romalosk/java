@@ -1,6 +1,4 @@
-var input = document.body.children[0];
-function changedate() {
-    document.getElementById('result').innerHTML = input.value;
+var input = document.querySelector('.date__input');
+input.oninput = function () {
+    document.getElementsByClassName('date__result').innerHTML = input.value;
 };
-input.oninput = changedate;
-input.addEventListener("change", changedate);
